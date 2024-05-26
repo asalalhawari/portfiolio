@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0b0127;
+    color: white;
+    height: 100%;
+}
+/* ---------start header------------- */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #14102d;
+    padding: 10px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+/* ---------end header------------- */
+
+/* ---------start main------------- */
+main{
+    padding-top: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.profile-pic img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+   
+}
+.social-icons a img{
+    width: 40px;
+    height: 40px;
+}
+/* ---------end main------------- */
+.containers {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background-color: #040413;
+    padding: 20px;
+}
+.Summary {
+    display:flex;
+    flex-direction: column;
+   
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.info img{
+width: 30px;
+}
+
+.Summary h1{
+    color: rgb(26, 76, 84);
+    font-size: 50px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.intro-text span{
+color: rgb(226, 240, 34);
+} 
+/* ---------end About------------- */
+.skills-container {
+    background-color: #030843;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.skills-container h2 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 50px;
+    color: #0d69a6;
+}
+.skills {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+.skills img {
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    display:flex ;
+    
+}
+/* ---------end skills------------- */
+.project-container {
+    background-color: #071c45;
+    padding: 20px;
+    border-radius: 10px;
+   
+}
+
+.project-containe .title {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    color: #000;
+}
+
+
+.projects  {
+    padding-top: 20px;
+    display: flex;
+    width: 100px;
+    border-radius: 10px;
+    
+
+}
+
+.strength-header {
+    margin-bottom: 20px;
+}
+
+.strength-button {
+    grid-area:"Strength";
+    background-color: #2097b4; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.strength-grid {
+    display: grid;
+    grid-template-areas:"Strength Strength " 
+                        "";
+    
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.strength-item {
+    background-color: #05205a;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    
+}
+
+.content-footer {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #136276;
+}
+
+.content-footer p {
+    margin: 5px 0;
+    
+}
